@@ -11026,6 +11026,7 @@ ul li:hover {
   width: 0px;
 }
 
+/* Page Login + Page Register */
 .jaune-or {
   background-image: url(../image/Terrafoot1.jpg);
   background-position: center;
@@ -11037,7 +11038,7 @@ ul li:hover {
 
 .login-box {
   position: relative;
-  bottom: 95px;
+  bottom: 110px;
   padding: 80px;
   width: 747px;
   height: 597px;
@@ -11104,7 +11105,7 @@ ul li:hover {
   position: relative;
   bottom: 65px;
   display: inline-block;
-  padding: 25px 20px;
+  padding: 35px 35px;
   color: #00d9ff;
   font-size: 20px;
   text-decoration: none;
@@ -11118,7 +11119,7 @@ ul li:hover {
   background-color: #00D8FF;
   color: white;
   border-radius: 10px;
-  box-shadow: #00D8FF 0 0 30px;
+  box-shadow: #00D8FF 0 0 20px;
 }
 
 .login-box a span {
