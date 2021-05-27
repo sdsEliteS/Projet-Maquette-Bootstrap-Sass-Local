@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Elite S Compagny</title>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <!--Link Font Awesome pour les icons -->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Link Google fonts Police d'écriture Zen Dots -->
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+    <!-- Link Connexion avec la page CSS -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Manipulation Navbar booststrap 5.0 -->
+
+    <header class="bdr-b-dark">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top bdr-b-dark">
+            <div class="container-fluid text-center">
+                <a class="navbar-brand" href="/">Boutique de Ballon de Football</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#monMenu"
+                    aria-controls="monMenu" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="monMenu">
+                    <div class="navbar-nav">
+
+                        <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
+                        <a class="nav-link" aria-current="page" href="presentation.html">Presentation</a>
+                        <a class="nav-link" aria-current="page" href="pageAdmin.html">Admin</a>
+                        <a class="nav-link" href="/">Qui sommes-nous</a>
+                        <a class="nav-link" href="#Vente-de-ballons">Vente de Ballons</a>
+                        <a class="nav-link" href="#Contactez-nous" tabindex="-1" aria-disabled="true">Contactez-nous</a>
+                    </div>
+                </div>
+
+                <div class="navbar-collapse collapse justify-content-end" id="monMenu">
+                    <div class="navbar-nav mx-5">
+                        <a class="nav-link" aria-current="page" href="pageLogin.html"><i class="fas fa-sign-in-alt sign-in mx-2"></i>Connexion</a>
+                        <a class="nav-link" aria-current="page" href="pageRegister.html"><i class="fas fa-user-plus sign-up mx-2"></i>Inscription</a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Manipulation du Header -->
+        <div class="container">
+            <div class="row">
+                <!-- class w-auto dimensionnement opère une découpe sur la hauteur et la largeur de l'image haider 
+                        afin que les barres de défilements disparaissent -->
+                <div class="col-md-12 home-title w-auto">
+                    <h1>Elite S Compagny</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Manipulation Section Famllle de Ballon  -->
+
+    <section id="Vente-de-ballons" class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>vente de ballons</h2>
+            </div>
+        </div>
+
+        <!-- bootstrap class mt-4 = class margin top 4 = margin haut de niveau 4 -->
+        <!-- bootstrap class mt-5 = class margin top 5 = margin haut de niveau 5 -->
+        <div class="row ">
+            <div class="col-md-4">
+                <div class="vente-details bdr-r-dark">
+                    <img class="w-auto" height="250px" src="assets/image/BallonL1.jpg">
+                    <h4 class="soccer-ligue1 mt-4"> Ballon - Ligue 1</h4>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="vente-details bdr-r-dark">
+                    <img class="w-auto" height="250px" src="assets/image/BallonL2.jpg">
+                    <h4 class="soccer-ligue2 mt-4">Ballon - Ligue 2</h4>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="vente-details">
+                    <img class="w-auto" height="250px" src="assets/image/BallonLDC.jpg">
+                    <h4 class="soccer-ldc mt-4">Ballon - Ligue des champions</h4>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Manipulation Bannière Poudre Or -->
+
+    <div class="bannière bdr-b-dark">
+        <img src="assets/image/Bannière4.jpg" class="w-100" alt="ma super bannière à taille variable" />
+    </div>
+
+    <!-- Manipulation Formulaire de Contact Client -->
+
+    <section id="Contactez-nous" class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="paragraphe-formulaire">
+                    <h2>Contactez-nous</h2>
+                    <p class="mt-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                        ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                        mus. Donec quam felis, ultricies nec,
+                        pellentesque eu, pretium quis,Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- col-sm-x = smartphone  -->
+            <div class="col-md-6 col-sm-6">
+                <!-- mt-5 = margin top = marge haut de niveau 5 opèrant des espacements sur la hauteur -->
+                <div class="phone mt-5 text-center">
+                    <!-- mr-3 = margin right = marge droite de niveau 3 afin de séparer l'icon et l'écris sur la largeur -->
+                    <p><i class="fas fa-phone btn-1"></i><u>Téléphone : <br /><br /></u> 06.61.53.87.21</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="adress mt-5 text-center">
+                    <p><i class="fas fa-map-marker-alt btn-2"></i><u>Adresse : <br /><br /></u> Place de la République
+                        72000 Le Mans</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Formulaire de Contact pour le Client (Nom + Email) -->
+        <form class="row">
+            <div class="col-md-6">
+                <div class="contact-form input-group flex-nowrap mt-3">
+                    <span class="input-group-text" id="addon-wrapping">Nom</span>
+                    <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="contact-form input-group flex-nowrap mt-3">
+                    <span class="input-group-text" id="addon-wrapping">@</span>
+                    <input type="text" class="form-control" placeholder="Ajouter un email" aria-label="Username"
+                        aria-describedby="addon-wrapping">
+                </div>
+            </div>
+
+            <!-- Service Client -->
+            <div class="col-md-12 d-flex justify-content-center mt-3">
+                <span class="input-group-text" id="addon-wrapping">Selectionner le service</span>
+                <select>
+                    <option>Service client</option>
+                    <option>Service Comptable</option>
+                    <option>SAV</option>
+                </select>
+            </div>
+
+            <!-- Message du Client -->
+            <div class="col-md-12">
+                <div class="contact-form mb-4 mt-4">
+                    <label>Votre message: </label>
+                    <textarea id="message" rows="9" class="contact-message"></textarea>
+                </div>
+            </div>
+
+            <!-- Envoyer Button -->
+            <div class="col-md-12">
+                <div class="contact-form text-center mb-5">
+                    <button class="btn-or">Envoyer</button>
+                </div>
+            </div>
+
+        </form>
+    </section>
+
+
+    <!-- Manipulation du Footer -->
+
+    <footer class="container-fluid">
+        <div class="copyright">
+            <p>Elite S Compagny 2.0 - Edition Maquette 2021.</p>
+            <ul>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-linkedin-in"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+<!-- Link de Booststrap 5.0 -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+</html>

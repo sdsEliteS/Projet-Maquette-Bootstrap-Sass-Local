@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Elite S Compagny</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Google fonts Police d'écriture Zen Dots -->
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+    <!--Link Font Awesome pour les icons -->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Link CSS de Bootstrap 5.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Link Connexion avec la page CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Manipulation Navbar booststrap 5.0 -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top bdr-b-dark">
+        <div class="container-fluid text-center">
+            <a class="navbar-brand" href="/">Boutique de Ballon de Football</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#monMenu"
+                aria-controls="monMenu" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="monMenu">
+                <div class="navbar-nav">
+
+                    <a class="nav-link" aria-current="page" href="/blog.html">Blog</a>
+                    <a class="nav-link" aria-current="page" href="/presentation.html">Presentation</a>
+                    <a class="nav-link" aria-current="page" href="pageAdmin.html">Admin</a>
+                    <a class="nav-link" href="/">Qui sommes-nous</a>
+                    <a class="nav-link" href="#Vente-de-ballons">Vente de Ballons</a>
+                    <a class="nav-link" href="#Contactez-nous" tabindex="-1" aria-disabled="true">Contactez-nous</a>
+                </div>
+            </div>
+
+            <div class="navbar-collapse collapse justify-content-end" id="monMenu">
+                <div class="navbar-nav mx-5">
+                    <a class="nav-link" aria-current="page" href="pageLogin.html"><i class="fas fa-sign-in-alt sign-in mx-2"></i>Connexion</a>
+                    <a class="nav-link" aria-current="page" href="pageRegister.html"><i class="fas fa-user-plus sign-up mx-2"></i>Inscription</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Manipulation Accordion Admim -->
+    <section class="container">
+        <div class="row Accordéon top-8vh">
+            <div class=col-md-12>
+
+                <!-- Accordion All (Pour tous)-->
+                <div class="accordion" id="accordionExample">
+
+                    <!-- Accordeon Liste Article -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Liste Article
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <table class="table table-dark table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-left" scope="col">#</th>
+                                            <th class="text-left" scope="col">Logo</th>
+                                            <th scope="col">Titre</th>
+                                            <th scope="col">Verified</th>
+                                            <th class="text-center" scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Item 1 du tableau -->
+                                        <tr class="table-info">
+                                            <th scope="row">1</th>
+                                            <td class="pt-0 pb-0 text-left align-middle">
+                                                <img class="rounded-circle" src="https://picsum.photos/35" alt="">
+                                            </td>
+                                            <td>Mark</td>
+                                            <td>true</td>
+                                            <td>
+                                                <div class="d-flex justify-content-evenly">
+                                                    <!-- Bouton Edit Open Modal Edit Validation Article -->
+                                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                                                        data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                                                        <i class="fas fa-edit"></i></button>
+
+                                                    <!-- Ajout début du Modal Edit Validation de l'Article dans le bouton Warning -->
+                                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="exampleModalLabel">
+                                                                        Editer "Titre"</h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <form>
+                                                                        <div class="row">
+                                                                            <div class="col-md-6">
+                                                                                <label for="recipient-name"
+                                                                                    class="col-form-label">Titre :</label>
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="Titre"
+                                                                                    id="recipient-name">
+                                                                            </div>
+                                                                            <div class="col-md-6">
+                                                                                <label for="message-text"
+                                                                                    class="col-form-label">Image :</label>
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="Image"
+                                                                                    id="recipient-name">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <label for="recipient-name"
+                                                                                class="col-form-label">Sujet :</label>
+                                                                                <input type="text" class="form-control"
+                                                                                placeholder="Sujet"
+                                                                                id="recipient-name">
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <label for="recipient-name"
+                                                                                class="col-form-label"></label>
+                                                                            <textarea id="message" rows="5"
+                                                                                placeholder="Description"
+                                                                                class="contact-message"></textarea>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="contact-form text-center mb-5">
+                                                                                <button
+                                                                                    class="btn-or mt-3">Validation</button>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- / Fin du Modal Edit de l'Article -->
+
+                                                    <!-- Bouton DANGER Open Modal Delete (Suppression) Article -->
+                                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                                        data-bs-target="#modalDeleteArticle">
+                                                        <i class="far fa-times-circle"></i>
+                                                    </button>
+                                                    <!-- Ajout Début du Modal Suppression de l'Article dans le Bouton DANGER -->
+                                                    <div class="modal fade" id="modalDeleteArticle" tabindex="-1"
+                                                        aria-labelledby="labelModalDeleteArticle" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title"
+                                                                        id="labelModalDeleteArticle">
+                                                                        Supprimer Message Mark
+                                                                    </h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    Etes-vous sûr de vouloir supprimer ce
+                                                                    message ?
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary"
+                                                                        data-bs-dismiss="modal">Annuler</button>
+                                                                    <button type="button"
+                                                                        class="btn btn-primary">Oui</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- / Fin du Modal Suppression de l'Article -->
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / Accordeon Liste Article -->
+
+                    <!-- Accordeon Liste User -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Liste Utilisateur
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <table class="table table-dark table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Logo</th>
+                                            <th scope="col">Titre</th>
+                                            <th scope="col">Verified</th>
+                                            <th class="text-center" scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Item 1 du tableau -->
+                                        <tr class="table-info">
+                                            <th>1</th>
+                                            <td class="pt-0 pb-0 text-left align-middle">
+                                                <img class="rounded-circle" src="https://picsum.photos/35" alt="">
+                                            </td>
+                                            <td>Mark</td>
+                                            <td>True</td>
+                                            <td>
+                                                <div class="d-flex justify-content-evenly">
+                                                    <!-- Bouton Edit Open Modal Edit Validation User -->
+                                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                                                        data-bs-target="#exampleModal-2" data-bs-whatever="@mdo">
+                                                        <i class="fas fa-edit"></i></button>
+
+                                                    <!-- Ajout début du Modal Edit Validation User dans le bouton Warning -->
+                                                    <div class="modal fade" id="exampleModal-2" tabindex="-1"
+                                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="exampleModalLabel">
+                                                                        Editer "Titre"</h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <form>
+                                                                        <div class="row">
+                                                                            <div class="col-md-6">
+                                                                                <label for="recipient-name"
+                                                                                    class="col-form-label">Titre :</label>
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="Titre"
+                                                                                    id="recipient-name">
+                                                                            </div>
+                                                                            <div class="col-md-6">
+                                                                                <label for="message-text"
+                                                                                    class="col-form-label">Image :</label>
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="Image"
+                                                                                    id="recipient-name">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <label for="recipient-name"
+                                                                                class="col-form-label">Sujet :</label>
+                                                                                <input type="text" class="form-control"
+                                                                                placeholder="Sujet"
+                                                                                id="recipient-name">
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <label for="recipient-name"
+                                                                                class="col-form-label"></label>
+                                                                            <textarea id="message" rows="5"
+                                                                                placeholder="Description"
+                                                                                class="contact-message"></textarea>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="contact-form text-center mb-5">
+                                                                                <button
+                                                                                    class="btn-or mt-3">Validation</button>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Fin du Modal Edit User -->
+
+                                                    <!-- Bouton DANGER Open Modal Delete (Suppression) User -->
+                                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                                        data-bs-target="#modalDeleteUser">
+                                                        <i class="far fa-times-circle"></i>
+                                                    </button>
+                                                    <!-- Ajout début du Modal Suppression du Message dans le Bouton DANGER -->
+                                                    <div class="modal fade" id="modalDeleteUser" tabindex="-1"
+                                                        aria-labelledby="labelModalDeleteUser" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="labelModalDeleteUser">
+                                                                        Supprimer Message Mark
+                                                                    </h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    Etes-vous sûr de vouloir supprimer ce
+                                                                    message ?
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary"
+                                                                        data-bs-dismiss="modal">Annuler</button>
+                                                                    <button type="button"
+                                                                        class="btn btn-primary">Oui</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- / Fin du Modal Suppression User -->
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / Accordeon Liste User -->
+
+                    <!-- Accordeon Liste Message -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseMessage" aria-expanded="false" aria-controls="collapseMessage">
+                                Liste Message
+                            </button>
+                        </h2>
+                        <div id="collapseMessage" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <table class="table table-dark table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Logo</th>
+                                            <th scope="col">Titre</th>
+                                            <th scope="col">Verified</th>
+                                            <th class="text-center" scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="table-info">
+                                            <th scope="row">1</th>
+                                            <td class="pt-0 pb-0 text-left align-middle">
+                                                <img class="rounded-circle" src="https://picsum.photos/35" alt="">
+                                            </td>
+                                            <td>Larry</td>
+                                            <td>true</td>
+                                            <td>
+                                                <div class="d-flex justify-content-evenly">
+                                                    <!-- Bouton DANGER open modal delete message -->
+                                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                                        data-bs-target="#modalDeleteMessage">
+                                                        <i class="far fa-times-circle"></i>
+                                                    </button>
+                                                    <!-- Ajout début du Modal Suppression du Message dans le bouton DANGER -->
+                                                    <div class="modal fade" id="modalDeleteMessage" tabindex="-1"
+                                                        aria-labelledby="labelModalDeleteMessage" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title"
+                                                                        id="labelModalDeleteMessage">
+                                                                        Supprimer Message Larry
+                                                                    </h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    Etes-vous sûr de vouloir supprimer ce
+                                                                    message ?
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary"
+                                                                        data-bs-dismiss="modal">Annuler</button>
+                                                                    <button type="button"
+                                                                        class="btn btn-primary">Oui</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- / Fin du Modal Suppression du Message -->
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / Accordeon Liste Message -->
+
+                </div>
+                <!-- / Accordeon All (Pour tous)-->
+
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+<!-- Link JS de Bootstrap 5.0 -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+</html>
