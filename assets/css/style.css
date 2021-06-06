@@ -10777,7 +10777,7 @@ body {
 /* MANIPULATION du Bouton Navbar
  * * ***************************** */
 .navbar-toggler {
-  border: 4px solid;
+  border: 2px solid;
 }
 
 #monMenu a:hover {
@@ -10864,12 +10864,6 @@ body {
   color: white;
   font-style: italic;
   font-size: 10px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 footer {
@@ -10976,9 +10970,14 @@ ul li:hover {
   font-family: Zen Dots;
   background-color: #ffd000;
   border-radius: 20px;
-  border: 1px #00d9ff solid;
-  box-shadow: 0 0 15px #00d9ff;
-  padding: 10px;
+  border: 2px white solid;
+  box-shadow: 0 6px #2E87FF;
+  padding: 15px;
+  width: 200px;
+}
+.btn-or-3:active {
+  box-shadow: 0 0px #2E87FF;
+  transform: translateY(3px);
 }
 
 /* Manipulation Barre de Recherche Vivante de la Page Blog */
@@ -11009,7 +11008,7 @@ ul li:hover {
 }
 
 .search-box:hover > .search-txt {
-  width: 390px;
+  width: 380px;
   transition: 0.5;
 }
 
@@ -11039,6 +11038,7 @@ ul li:hover {
 .login-box {
   position: relative;
   bottom: 110px;
+  top: -97px;
   padding: 80px;
   width: 747px;
   height: 597px;
@@ -11051,15 +11051,14 @@ ul li:hover {
 .register-box {
   position: relative;
   top: 28px;
-  bottom: -5px;
-  height: 870px;
+  height: 847px;
 }
 
 .login-box h3, .login-box .h3 {
   position: relative;
   bottom: 80px;
   height: 15%;
-  margin: 0 0 40px;
+  margin: 0 0 10px;
   padding: 45px;
   color: white;
 }
@@ -11101,13 +11100,23 @@ ul li:hover {
   font-size: 13px;
 }
 
-.login-box form a {
+.login-box .user-box a {
+  position: relative;
+  bottom: 30px;
+  color: #ffd000;
+  font-style: italic;
+  font-size: 12.5px;
+}
+
+.login-box form button {
   position: relative;
   bottom: 65px;
   display: inline-block;
   padding: 35px 35px;
+  background-color: black;
   color: #00d9ff;
   font-size: 20px;
+  border: none;
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
@@ -11115,19 +11124,19 @@ ul li:hover {
   margin-top: 25px;
   letter-spacing: 4px;
 }
-.login-box form a:hover {
+.login-box form button:hover {
   background-color: #00D8FF;
   color: white;
   border-radius: 10px;
   box-shadow: #00D8FF 0 0 20px;
 }
 
-.login-box a span {
+.login-box button span {
   position: absolute;
   display: block;
 }
 
-.login-box a span:nth-child(1) {
+.login-box button span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
@@ -11144,7 +11153,7 @@ ul li:hover {
     left: 100%;
   }
 }
-.login-box a span:nth-child(2) {
+.login-box button span:nth-child(2) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -11162,7 +11171,7 @@ ul li:hover {
     top: 100%;
   }
 }
-.login-box a span:nth-child(3) {
+.login-box button span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
@@ -11180,7 +11189,7 @@ ul li:hover {
     right: 100%;
   }
 }
-.login-box a span:nth-child(4) {
+.login-box button span:nth-child(4) {
   bottom: -100%;
   left: 0;
   width: 2px;

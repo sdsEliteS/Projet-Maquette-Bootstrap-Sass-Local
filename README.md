@@ -11,9 +11,16 @@ https://picsum.photos/
 
 
 
+
 /* Youtube (Barre de Recherche) */
 
 https://www.youtube.com/watch?v=v1PeTDrw6OY
+
+
+/* Liste Commentaire de la Page ID */
+
+https://getbootstrap.com/docs/4.0/components/list-group/
+
 
 
 
@@ -37,11 +44,13 @@ https://getbootstrap.com/docs/5.0/components/modal/
 
 
 
+
 /* Youtube (Page Login - Sign In) */
 
 https://www.youtube.com/watch?v=FynC7N31mUw
 
 https://www.youtube.com/watch?v=4wz8169Mxnc
+
 
 
 

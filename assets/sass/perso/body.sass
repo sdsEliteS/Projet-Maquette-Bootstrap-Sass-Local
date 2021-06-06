@@ -39,7 +39,7 @@ body
  * ***************************** */
 
 .navbar-toggler
-    border: 4px solid
+    border: 2px solid
 
 #monMenu a:hover
     color: rgb(0, 217, 255)
@@ -111,11 +111,6 @@ body
     color: white
     font-style: italic
     font-size: 10px
-
-*
-    margin: 0
-    padding: 0
-    list-style: none
 
 footer
     display: flex
@@ -207,4 +202,14 @@ ul li:hover
     text-decoration: underline
 
 .btn-or-3
-    @include bouton-design
+    font-family: Zen Dots
+    background-color: $jaune-color
+    border-radius: 20px
+    border: 2px $white-color solid
+    box-shadow: 0 6px #2E87FF 
+    padding: 15px
+    width: 200px
+
+    &:active
+        box-shadow: 0 0px #2E87FF 
+        transform: translateY(3px)

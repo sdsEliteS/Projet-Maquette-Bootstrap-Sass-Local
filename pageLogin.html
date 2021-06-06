@@ -51,8 +51,10 @@
 
             <div class="navbar-collapse collapse justify-content-end" id="monMenu">
                 <div class="navbar-nav mx-5">
-                    <a class="nav-link" aria-current="page" href="pageLogin.html"><i class="fas fa-sign-in-alt sign-in mx-2"></i>Connexion</a>
-                    <a class="nav-link" aria-current="page" href="pageRegister.html"><i class="fas fa-user-plus sign-up mx-2"></i>Inscription</a>
+                    <a class="nav-link" aria-current="page" href="pageLogin.html"><i
+                            class="fas fa-sign-in-alt sign-in mx-2"></i>Connexion</a>
+                    <a class="nav-link" aria-current="page" href="pageRegister.html"><i
+                            class="fas fa-user-plus sign-up mx-2"></i>Inscription</a>
                 </div>
             </div>
 
@@ -75,17 +77,45 @@
             <div class="user-box">
                 <input type="mot de passe" id="mot de passe">
                 <label for="mot de passe">Mot de Passe</label>
+                <a href="#exampleModalToggle" data-bs-toggle="modal" role="button">mot de passe oublié</a>
             </div>
-            <a href="#">
+            <button class="neon">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 connexion
-            </a>
+            </button>
         </form>
     </div>
 
+   <!-- Manipulation Modal Mot de Passe Oublié -->
+   
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Mot de Passe Oublié</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                </div>
+                <div class="modal-body">
+                    <div class="contact-form input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">@</span>
+                        <input type="text" class="form-control" placeholder="Taper votre email" aria-label="Username"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="modal-header pb-1 text-center">
+                        <p>Si votre email est dans la base de donné, vous allez recevoir un email de confirmation avec votre mot de passe</p>
+                     </div>
+                    <div class="pt-4 d-flex justify-content-center">
+                        <button class="btn-or">Envoyer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
     <!-- Link JS de Bootstrap 5.0 -->
 
