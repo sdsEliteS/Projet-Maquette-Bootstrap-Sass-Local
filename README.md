@@ -27,7 +27,7 @@ https://getbootstrap.com/docs/4.0/components/list-group/
 
 /* Lien pour la Création de la Page Admin (Bootstrap) */
 
-Listes de Commentaires CLients
+Listes de Commentaires Clients
 
 https://getbootstrap.com/docs/5.0/components/list-group/
 
