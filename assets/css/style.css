@@ -10921,6 +10921,10 @@ ul li:hover {
   background-color: #00d9ff;
 }
 
+.legal-notice a {
+  color: #ffd000;
+}
+
 /* Manipulation Page Présentation HTML 
  *  ********************************** */
 .top-8vh {
@@ -10978,6 +10982,37 @@ ul li:hover {
 .btn-or-3:active {
   box-shadow: 0 0px #2E87FF;
   transform: translateY(3px);
+}
+
+/* Page Mentions Légales 
+ * ********************* */
+.login-box-2 {
+  position: relative;
+  bottom: 555px;
+  top: 57px;
+  padding: 80px;
+  height: 98%;
+  background-color: black;
+  box-shadow: 0 0 15px white;
+  border-radius: 10px;
+  border: 5px white solid;
+}
+
+.legal-notice {
+  color: white;
+  /* text-shadow: none (Au choix) */
+}
+
+.padding-box {
+  padding-bottom: 52px;
+}
+
+.notice {
+  color: #ffd000;
+}
+
+.blue {
+  color: #0ad8f4;
 }
 
 /* Manipulation Barre de Recherche Vivante de la Page Blog */
