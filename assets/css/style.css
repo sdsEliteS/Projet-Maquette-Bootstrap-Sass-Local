@@ -10988,7 +10988,6 @@ ul li:hover {
  * ********************* */
 .login-box-2 {
   position: relative;
-  bottom: 555px;
   top: 57px;
   padding: 80px;
   height: 98%;
@@ -11000,7 +10999,7 @@ ul li:hover {
 
 .legal-notice {
   color: white;
-  /* text-shadow: none (Au choix) */
+  text-shadow: none;
 }
 
 .padding-box {
@@ -11008,7 +11007,7 @@ ul li:hover {
 }
 
 .notice {
-  color: #ffd000;
+  color: white;
 }
 
 .blue {
