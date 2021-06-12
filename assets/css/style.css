@@ -10734,14 +10734,14 @@ textarea.form-control-lg {
 /* Disparition des bordures (Cards) de la Page Blog */
 /* MANIPULATION du Header 
  * * ********************** */
-header {
+.header {
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(51, 193, 255, 0.7)), url(../image/Terrafoot1.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
 }
 
-h1, .h1, h2, .h2 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-family: Zen Dots;
   text-transform: uppercase;
   text-align: center;
@@ -10864,6 +10864,11 @@ body {
   color: white;
   font-style: italic;
   font-size: 10px;
+  margin-right: 40px;
+}
+
+.elite {
+  padding-left: 47px;
 }
 
 footer {
@@ -10880,6 +10885,7 @@ footer {
 
 ul {
   display: flex;
+  margin-left: 10px;
 }
 
 ul li {
@@ -10923,6 +10929,7 @@ ul li:hover {
 
 .legal-notice a {
   color: #ffd000;
+  margin-left: 40px;
 }
 
 /* Manipulation Page Présentation HTML 
@@ -10984,17 +10991,28 @@ ul li:hover {
   transform: translateY(3px);
 }
 
+/* overflow: hidden centre la map en mode responsive (Mobile) */
+.map {
+  overflow: hidden;
+}
+
 /* Page Mentions Légales 
  * ********************* */
+.jaune-or-2 {
+  background-image: url(../image/Terrafoot1.jpg);
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .login-box-2 {
   position: relative;
   top: 57px;
   padding: 80px;
-  height: 98%;
   background-color: black;
   box-shadow: 0 0 15px white;
   border-radius: 10px;
   border: 5px white solid;
+  opacity: 0.8;
 }
 
 .legal-notice {
@@ -11003,7 +11021,7 @@ ul li:hover {
 }
 
 .padding-box {
-  padding-bottom: 52px;
+  padding-bottom: 75px;
 }
 
 .notice {
@@ -11012,6 +11030,10 @@ ul li:hover {
 
 .blue {
   color: #0ad8f4;
+  text-decoration: underline;
+  text-align: left;
+  text-transform: none;
+  text-shadow: none;
 }
 
 /* Manipulation Barre de Recherche Vivante de la Page Blog */
@@ -11095,6 +11117,8 @@ ul li:hover {
   margin: 0 0 10px;
   padding: 45px;
   color: white;
+  text-shadow: none;
+  text-transform: none;
 }
 
 .login-box .user-box {
