@@ -10966,7 +10966,37 @@ ul li:hover {
 /* Manipulation Page ID HTML 
  *  ************************ */
 .article-ballon {
-  margin-top: 10vh;
+  margin-top: 120px;
+}
+
+.bordure {
+  background-color: #001276;
+}
+
+.titre-neon-special {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 0 transparent, 0 0 10px #2695ff, 0 0 20px rgba(38, 149, 255, 0.6), 0 0 40px #2695ff, 0 0 100px #2695ff, 0 0 200px #2695ff, 0 0 300px #2695ff, 0 0 500px #2695ff;
+  -webkit-animation: buzzer 0.01s infinite alternate;
+  animation: buzzer 0.01s infinite alternate;
+}
+@-webkit-keyframes buzzer {
+  70% {
+    opacity: 0.7;
+  }
+}
+@keyframes buzzer {
+  70% {
+    opacity: 0.7;
+  }
+}
+
+.encadrer {
+  border: #001276 solid 15px;
+  padding-top: 35px;
 }
 
 .color-commentaire {
@@ -10975,6 +11005,11 @@ ul li:hover {
   color: black;
   text-shadow: #ffd000 1px 0 10px;
   text-decoration: underline;
+}
+
+.btn-3, .btn-4 {
+  color: #2E87FF;
+  margin-right: 20px;
 }
 
 .btn-or-3 {
@@ -10994,6 +11029,28 @@ ul li:hover {
 /* overflow: hidden centre la map en mode responsive (Mobile) */
 .map {
   overflow: hidden;
+}
+
+cite {
+  text-decoration: underline;
+}
+
+cite img {
+  position: relative;
+  right: 20px;
+  border-radius: 75%;
+  height: 75px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.etoile {
+  font-size: 30px;
+  color: #ffd000;
+  letter-spacing: 15px;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 /* Page Mentions Légales 
