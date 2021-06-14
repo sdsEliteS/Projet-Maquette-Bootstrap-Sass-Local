@@ -69,3 +69,7 @@ https://getbootstrap.com/docs/5.0/utilities/flex/#justify-content
 https://jsfiddle.net/ht63qm4p/1/
 
 https://bgpattern.com/css-tutorial-for-how-to-create-a-glowing-neon-animated-text/
+
+/* Slider Carrousel */
+
+https://getbootstrap.com/docs/5.0/components/carousel/#slides-only
