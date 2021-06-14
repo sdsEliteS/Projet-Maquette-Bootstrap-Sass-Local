@@ -10818,7 +10818,7 @@ body {
   margin-top: 35px;
 }
 
-/* MANIPULATION formulaire de contact 
+/* MANIPULATION Formulaire de contact 
  * * ********************************** */
 .paragraphe-formulaire {
   text-align: center;
@@ -10835,7 +10835,7 @@ body {
 }
 
 .contact-message {
-  width: 100%;
+  width: 92%;
 }
 
 .btn-or {
@@ -10932,7 +10932,7 @@ ul li:hover {
   margin-left: 40px;
 }
 
-/* Manipulation Page Présentation HTML 
+/* MANIPULATION Page Présentation HTML 
  *  ********************************** */
 .top-8vh {
   margin-top: 8vh;
@@ -10963,7 +10963,7 @@ ul li:hover {
   padding: 10px;
 }
 
-/* Manipulation Page ID HTML 
+/* MANIPULATION Page ID HTML 
  *  ************************ */
 .article-ballon {
   margin-top: 120px;
@@ -10996,7 +10996,6 @@ ul li:hover {
 
 .encadrer {
   border: #001276 solid 15px;
-  padding-top: 35px;
 }
 
 .color-commentaire {
@@ -11017,12 +11016,12 @@ ul li:hover {
   background-color: #ffd000;
   border-radius: 20px;
   border: 2px white solid;
-  box-shadow: 0 6px #2E87FF;
+  box-shadow: 0 6px #001276;
   padding: 15px;
   width: 200px;
 }
 .btn-or-3:active {
-  box-shadow: 0 0px #2E87FF;
+  box-shadow: 0 0px #001276;
   transform: translateY(3px);
 }
 
@@ -11053,7 +11052,7 @@ cite img {
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-/* Page Mentions Légales 
+/* MANIPULATION Page Mentions Légales 
  * ********************* */
 .jaune-or-2 {
   background-image: url(../image/Terrafoot1.jpg);
