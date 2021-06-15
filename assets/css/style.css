@@ -10965,6 +10965,14 @@ ul li:hover {
 
 /* MANIPULATION Page ID HTML 
  *  ************************ */
+.card {
+  text-decoration: none;
+}
+
+.card-text {
+  font-style: italic;
+}
+
 .article-ballon {
   margin-top: 120px;
 }
@@ -11320,6 +11328,13 @@ cite img {
   50%, 100% {
     bottom: 100%;
   }
+}
+.connect {
+  color: black;
+}
+
+.ground {
+  background-image: url(../../assets/image/Terrain-football.png);
 }
 
 /*# sourceMappingURL=style.css.map */

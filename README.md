@@ -64,6 +64,17 @@ Positionnement
 https://getbootstrap.com/docs/5.0/utilities/flex/#justify-content
 
 
+Taille de Texte (Bootstrap 5)
+
+https://getbootstrap.com/docs/5.0/utilities/text/#font-size
+
+
+Taille de l'écran (Bootstrap 5)
+
+https://getbootstrap.com/docs/5.0/layout/grid/
+
+
+
 /* Titre Neon Page ID */
 
 https://jsfiddle.net/ht63qm4p/1/
