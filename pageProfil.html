@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="ground">
+<body>
 
     <!-- Manipulation Navbar booststrap 5.0 -->
 
@@ -48,20 +48,48 @@
             <div class="navbar-collapse collapse justify-content-end" id="monMenu">
                 <div class="navbar-nav mx-5">
                     <a class="nav-link" aria-current="page" href="/"><i
-                        class="fas fa-wifi connect mx-2"></i>DarkCode</a>
-                    <a class="nav-link" aria-current="page" href="pageRegister.html">Deconnexion</a>
+                            class="fas fa-wifi connect mx-2"></i>DarkCode</a>
+                    <a class="nav-link" aria-current="page" href="/">Deconnexion</a>
                 </div>
             </div>
         </div>
     </nav>
 
+    <!-- Manipulation du Profil -->
 
-
-
+    <section class="padding-profil">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="profile-card d-flex justify-content-center w-100">
+                        <div class="top-section">
+                            <div class="avatar">
+                                <img src="assets/image/DarkCode.png" class="w-100" alt="Avatar">
+                            </div>
+                            <div>
+                                <div class="name fs-1 text-white">DarkCode</div>
+                                <a href="/" data-bs-toggle="modal" class="change-photo text-warning fst-italic" role="button">Change Photo Profil</a>
+                            </div>
+                            <div class="bottom-section">
+                                <div class="social-media">
+                                    <a href="#"><i class="fas fa-edit"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></i></a>
+                                    <a href="#"><i class="fas fa-envelope"></i></a>
+                                </div>
+                                <div class="commentaire text-dark">33 <span>Commentaires</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 
 <!-- Link de Booststrap 5.0 -->
 <script src="/assets/js/bootstrap.bundle.min.js"></script>
+
 
 </html>
