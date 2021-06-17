@@ -84,3 +84,8 @@ https://bgpattern.com/css-tutorial-for-how-to-create-a-glowing-neon-animated-tex
 /* Slider Carrousel */
 
 https://getbootstrap.com/docs/5.0/components/carousel/#slides-only
+
+
+/* Profil */
+
+https://www.youtube.com/watch?v=UaYriA15zoc
