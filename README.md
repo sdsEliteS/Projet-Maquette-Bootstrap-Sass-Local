@@ -43,6 +43,10 @@ liste de Modal pour Bouton de la Page Admin
 
 https://getbootstrap.com/docs/5.0/components/modal/
 
+Liste de Button
+
+https://getbootstrap.com/docs/5.0/components/buttons/
+
 
 
 

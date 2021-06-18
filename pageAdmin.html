@@ -84,8 +84,8 @@
                                     <thead>
                                         <tr>
                                             <th class="text-left" scope="col">#</th>
-                                            <th class="text-left" scope="col">Logo</th>
-                                            <th scope="col">Titre</th>
+                                            <th class="text-left" scope="col">Avatar</th>
+                                            <th scope="col">Pseudo</th>
                                             <th scope="col">Verified</th>
                                             <th class="text-center" scope="col">Action</th>
                                         </tr>
@@ -101,7 +101,7 @@
                                             <td>true</td>
                                             <td>
                                                 <div class="d-flex justify-content-evenly">
-                                                    <!-- Bouton Edit Open Modal Ajouter Validation Article -->
+                                                    <!-- Bouton Open Modal Ajouter Validation Article -->
                                                     <button type="button" class="btn btn-success" data-bs-toggle="modal"
                                                         data-bs-target="#modalAjouterArticle" data-bs-whatever="@mdo">
                                                         <i class="fas fa-plus-circle"></i></button>
@@ -287,8 +287,8 @@
                                     <thead>
                                         <tr>
                                             <th scope="col">#</th>
-                                            <th scope="col">Logo</th>
-                                            <th scope="col">Titre</th>
+                                            <th scope="col">Avatar</th>
+                                            <th scope="col">Pseudo</th>
                                             <th scope="col">Verified</th>
                                             <th class="text-center" scope="col">Action</th>
                                         </tr>
@@ -316,7 +316,7 @@
                                                             <div class="modal-content">
                                                                 <div class="modal-header">
                                                                     <h5 class="modal-title" id="exampleModalLabel">
-                                                                        Editer "Titre"</h5>
+                                                                        Editer "Utilisateur"</h5>
                                                                     <button type="button" class="btn-close"
                                                                         data-bs-dismiss="modal"
                                                                         aria-label="Close"></button>
@@ -326,7 +326,7 @@
                                                                         <div class="row">
                                                                             <div class="col-md-6">
                                                                                 <label for="recipient-name"
-                                                                                    class="col-form-label">Titre
+                                                                                    class="col-form-label">Pseudo
                                                                                     :</label>
                                                                                 <input type="text" class="form-control"
                                                                                     placeholder="Titre"
@@ -334,18 +334,18 @@
                                                                             </div>
                                                                             <div class="col-md-6">
                                                                                 <label for="message-text"
-                                                                                    class="col-form-label">Image
+                                                                                    class="col-form-label">Email
                                                                                     :</label>
                                                                                 <input type="text" class="form-control"
-                                                                                    placeholder="Image"
+                                                                                    placeholder="Email"
                                                                                     id="recipient-name">
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-md-12">
                                                                             <label for="recipient-name"
-                                                                                class="col-form-label">Sujet :</label>
+                                                                                class="col-form-label">Avatar :</label>
                                                                             <input type="text" class="form-control"
-                                                                                placeholder="Sujet" id="recipient-name">
+                                                                                placeholder="Avatar" id="recipient-name">
                                                                         </div>
                                                                         <div class="col-md-12">
                                                                             <label for="recipient-name"
@@ -367,6 +367,39 @@
                                                         </div>
                                                     </div>
                                                     <!-- Fin du Modal Edit User -->
+
+                                                    <!-- Bouton DANGER Open Modal Delete (Suppression) User -->
+                                                    <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                                                        data-bs-target="#modalBanishUser">
+                                                        <i class="fas fa-ban"></i>
+                                                    </button>
+                                                    <!-- Ajout début du Modal Suppression du Message dans le Bouton DANGER -->
+                                                    <div class="modal fade" id="modalBanishUser" tabindex="-1"
+                                                        aria-labelledby="labelModalBanishUser" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="labelModalBanishUser">
+                                                                        Bannir Utilisateur Mark
+                                                                    </h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    Etes-vous sûr de vouloir bannir (Bloquer) cet
+                                                                    utilisateur ?
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary"
+                                                                        data-bs-dismiss="modal">Annuler</button>
+                                                                    <button type="button"
+                                                                        class="btn btn-primary">Oui</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- / Fin du Modal Suppression User -->
 
                                                     <!-- Bouton DANGER Open Modal Delete (Suppression) User -->
                                                     <button type="button" class="btn btn-danger" data-bs-toggle="modal"
@@ -425,8 +458,8 @@
                                     <thead>
                                         <tr>
                                             <th scope="col">#</th>
-                                            <th scope="col">Logo</th>
-                                            <th scope="col">Titre</th>
+                                            <th scope="col">Avatar</th>
+                                            <th scope="col">Pseudo</th>
                                             <th scope="col">Verified</th>
                                             <th class="text-center" scope="col">Action</th>
                                         </tr>
@@ -441,6 +474,45 @@
                                             <td>true</td>
                                             <td>
                                                 <div class="d-flex justify-content-evenly">
+                                                    <!-- Bouton Primary open modal vision message -->
+                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                                        data-bs-target="#modalVisionMessage">
+                                                        <i class="fas fa-eye"></i>
+                                                    </button>
+                                                    <!-- Ajout début du Modal Vision du Message dans le bouton Primary -->
+                                                    <div class="modal fade" id="modalVisionMessage" tabindex="-1"
+                                                        aria-labelledby="labelModalVisionMessage" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title"
+                                                                        id="labelModalVisionMessage">
+                                                                        Visionner Message Larry
+                                                                    </h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <p>Nom: Mark<br /><br />
+                                                                    Email: 123456789@gmail.com<br /><br />
+                                                                    Sujet: Commentaire Article Ballon-Ligue 1<br /><br />
+                                                                    Message: Bonjour Elite S, je m'appelle Mark. Je suis un Utilisateur 
+                                                                    de votre Site Internet, et je voudrais vous remercier pour 
+                                                                    vos recommandations qui sont de très bonne qualité m'ayant
+                                                                    permis de realiser un bon achat. Bon Continuation.<br /><br />
+                                                                    Cordialement.<br /><br />
+                                                                    Mark.</p>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary"
+                                                                        data-bs-dismiss="modal">Quitter</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- / Fin du Modal Suppression du Message -->
+
                                                     <!-- Bouton DANGER open modal delete message -->
                                                     <button type="button" class="btn btn-danger" data-bs-toggle="modal"
                                                         data-bs-target="#modalDeleteMessage">

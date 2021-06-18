@@ -10813,7 +10813,7 @@ body {
   margin-left: 750px;
 }
 
-/* MANIPULATION Famille de Ballon 
+/* MANIPULATION Vente Famille de Ballon 
  * * ****************************** */
 .vente-details {
   text-align: center;
@@ -10839,7 +10839,7 @@ body {
 }
 
 .contact-message {
-  width: 92%;
+  width: 100%;
 }
 
 .btn-or {
@@ -11018,6 +11018,10 @@ ul li:hover {
   text-decoration: underline;
 }
 
+.contact-message-2 {
+  width: 92%;
+}
+
 .btn-3, .btn-4 {
   color: #2E87FF;
   margin-right: 20px;
@@ -11065,7 +11069,7 @@ cite img {
 }
 
 /* MANIPULATION Page Mentions Légales 
- * ********************* */
+ * ********************************** */
 .jaune-or-2 {
   background-image: url(../image/Terrafoot1.jpg);
   background-position: center;
@@ -11466,6 +11470,16 @@ cite img {
 #myVideo {
   position: fixed;
   background-size: cover;
+}
+
+/* MANIPULATION Page Messagerie Utilisateur */
+.messagerie {
+  padding-top: 61px;
+}
+
+.accordion-body-2 {
+  border: 5px solid #0ad8f4;
+  padding-bottom: 37px;
 }
 
 /*# sourceMappingURL=style.css.map */
