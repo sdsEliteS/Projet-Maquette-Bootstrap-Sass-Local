@@ -10967,7 +10967,7 @@ ul li:hover {
   padding: 10px;
 }
 
-/* MANIPULATION Page ID HTML 
+/* MANIPULATION Page Blog + ID HTML 
  *  ************************ */
 .card {
   text-decoration: none;
@@ -11364,8 +11364,6 @@ cite img {
   border: white solid 15px;
   box-shadow: 0px 0px 10px black;
   background: black;
-  /* background-color: white */
-  /* opacity: 0.8 */
 }
 
 .avatar {
@@ -11426,12 +11424,6 @@ cite img {
   left: 0;
   z-index: 1;
 }
-.social-media::before {
-  content: "";
-  width: 20%;
-  height: 2000%;
-  background: green;
-}
 
 .social-media a {
   background-color: white;
@@ -11480,6 +11472,10 @@ cite img {
 .accordion-body-2 {
   border: 5px solid #0ad8f4;
   padding-bottom: 37px;
+}
+
+.champ-action {
+  background-color: #ffd000;
 }
 
 /*# sourceMappingURL=style.css.map */
