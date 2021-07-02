@@ -101,69 +101,6 @@
                                             <td>true</td>
                                             <td>
                                                 <div class="d-flex justify-content-evenly">
-                                                    <!-- Bouton Open Modal Ajouter Validation Article -->
-                                                    <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                                                        data-bs-target="#modalAjouterArticle" data-bs-whatever="@mdo">
-                                                        <i class="fas fa-plus-circle"></i></button>
-
-                                                    <!-- Ajout début du Modal Ajouter Validation de l'Article dans le bouton Success -->
-                                                    <div class="modal fade" id="modalAjouterArticle" tabindex="-1"
-                                                        aria-labelledby="labelModalAjouterArticle" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title" id="exampleModalLabel">
-                                                                        Ajouter "Article"</h5>
-                                                                    <button type="button" class="btn-close"
-                                                                        data-bs-dismiss="modal"
-                                                                        aria-label="Close"></button>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <form>
-                                                                        <div class="row">
-                                                                            <div class="col-md-6">
-                                                                                <label for="recipient-name"
-                                                                                    class="col-form-label">Titre
-                                                                                    :</label>
-                                                                                <input type="text" class="form-control"
-                                                                                    placeholder="Titre"
-                                                                                    id="recipient-name">
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                <label for="message-text"
-                                                                                    class="col-form-label">Image
-                                                                                    :</label>
-                                                                                <input type="text" class="form-control"
-                                                                                    placeholder="Image"
-                                                                                    id="recipient-name">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-md-12">
-                                                                            <label for="recipient-name"
-                                                                                class="col-form-label">Sujet :</label>
-                                                                            <input type="text" class="form-control"
-                                                                                placeholder="Sujet" id="recipient-name">
-                                                                        </div>
-                                                                        <div class="col-md-12">
-                                                                            <label for="recipient-name"
-                                                                                class="col-form-label"></label>
-                                                                            <textarea id="message" rows="5"
-                                                                                placeholder="Description"
-                                                                                class="contact-message"></textarea>
-                                                                        </div>
-                                                                        <div class="col-md-12">
-                                                                            <div class="contact-form text-center mb-5">
-                                                                                <button
-                                                                                    class="btn-or mt-3">Validation</button>
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </form>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- / Fin du Modal Ajouter de l'Article -->
 
                                                     <!-- Bouton Edit Open Modal Edit Validation Article -->
                                                     <button type="button" class="btn btn-warning" data-bs-toggle="modal"
@@ -345,7 +282,8 @@
                                                                             <label for="recipient-name"
                                                                                 class="col-form-label">Avatar :</label>
                                                                             <input type="text" class="form-control"
-                                                                                placeholder="Avatar" id="recipient-name">
+                                                                                placeholder="Avatar"
+                                                                                id="recipient-name">
                                                                         </div>
                                                                         <div class="col-md-12">
                                                                             <label for="recipient-name"
@@ -495,14 +433,19 @@
                                                                 </div>
                                                                 <div class="modal-body">
                                                                     <p>Nom: Mark<br /><br />
-                                                                    Email: 123456789@gmail.com<br /><br />
-                                                                    Sujet: Commentaire Article Ballon-Ligue 1<br /><br />
-                                                                    Message: Bonjour Elite S, je m'appelle Mark. Je suis un Utilisateur 
-                                                                    de votre Site Internet, et je voudrais vous remercier pour 
-                                                                    vos recommandations qui sont de très bonne qualité m'ayant
-                                                                    permis de realiser un bon achat. Bon Continuation.<br /><br />
-                                                                    Cordialement.<br /><br />
-                                                                    Mark.</p>
+                                                                        Email: 123456789@gmail.com<br /><br />
+                                                                        Sujet: Commentaire Article Ballon-Ligue
+                                                                        1<br /><br />
+                                                                        Message: Bonjour Elite S, je m'appelle Mark. Je
+                                                                        suis un Utilisateur
+                                                                        de votre Site Internet, et je voudrais vous
+                                                                        remercier pour
+                                                                        vos recommandations qui sont de très bonne
+                                                                        qualité m'ayant
+                                                                        permis de realiser un bon achat. Bon
+                                                                        Continuation.<br /><br />
+                                                                        Cordialement.<br /><br />
+                                                                        Mark.</p>
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <button type="button" class="btn btn-secondary"
@@ -563,6 +506,69 @@
         </div>
     </section>
 
+    <!-- Manipulation Bouton Admin Ajouter Nouvel Article -->
+
+    <section>
+        <div class="col-md-12">
+            <div class="contact-form text-center mt-3 mb-5">
+                <!-- Bouton Open Modal Ajouter Validation Article -->
+                <button type="button" class="btn-admin" data-bs-toggle="modal" data-bs-target="#modalAjouterArticle"
+                    data-bs-whatever="@mdo">
+                    Ajouter Article</button>
+
+                <!-- Ajout début du Modal Ajouter Validation de l'Article dans le bouton Success -->
+                <div class="modal fade" id="modalAjouterArticle" tabindex="-1"
+                    aria-labelledby="labelModalAjouterArticle" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">
+                                    Ajouter "Article"</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label for="recipient-name"
+                                                class="col-form-label d-flex justify-content-start">Titre
+                                                :</label>
+                                            <input type="text" class="form-control" placeholder="Titre"
+                                                id="recipient-name">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="message-text"
+                                                class="col-form-label d-flex justify-content-start">Image
+                                                :</label>
+                                            <input type="text" class="form-control" placeholder="Image"
+                                                id="recipient-name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="recipient-name"
+                                            class="col-form-label d-flex justify-content-start">Sujet :</label>
+                                        <input type="text" class="form-control" placeholder="Sujet" id="recipient-name">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="recipient-name" class="col-form-label"></label>
+                                        <textarea id="message" rows="5" placeholder="Description"
+                                            class="contact-message"></textarea>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="contact-form text-center mb-5">
+                                            <button class="btn-or mt-3">Validation</button>
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 

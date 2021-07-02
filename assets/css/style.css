@@ -11042,6 +11042,21 @@ ul li:hover {
 }
 
 /* overflow: hidden centre la map en mode responsive (Mobile) */
+.btn-admin {
+  font-family: Zen Dots;
+  background-color: #3aaf00;
+  color: white;
+  border-radius: 20px;
+  border: 2px white solid;
+  box-shadow: 0 6px #3aaf00;
+  padding: 15px;
+  width: 200px;
+}
+.btn-admin:active {
+  box-shadow: 0 0px;
+  transform: translateY(3px);
+}
+
 .map {
   overflow: hidden;
 }
