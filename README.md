@@ -93,3 +93,8 @@ https://getbootstrap.com/docs/5.0/components/carousel/#slides-only
 /* Profil */
 
 https://www.youtube.com/watch?v=UaYriA15zoc
+
+
+# String "" ou '' ou `` :
+  - String = chaine de caractère
+  - Guillemet inversé est utils pour appelé un variable JS `test ${ maVariable }`
