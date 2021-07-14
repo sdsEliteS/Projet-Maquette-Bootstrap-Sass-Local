@@ -93,3 +93,6 @@ https://getbootstrap.com/docs/5.0/components/carousel/#slides-only
 /* Profil */
 
 https://www.youtube.com/watch?v=UaYriA15zoc
+
+
+allo
