@@ -94,5 +94,3 @@ https://getbootstrap.com/docs/5.0/components/carousel/#slides-only
 
 https://www.youtube.com/watch?v=UaYriA15zoc
 
-
-allo
