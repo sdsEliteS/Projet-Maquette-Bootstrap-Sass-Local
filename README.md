@@ -93,3 +93,12 @@ https://getbootstrap.com/docs/5.0/components/carousel/#slides-only
 /* Profil */
 
 https://www.youtube.com/watch?v=UaYriA15zoc
+
+
+
+/* Faire un site responsive */
+
+https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1607616-utilisez-le-responsive-design-avec-les-media-queries
+
+
+"Possible de faire un site responsive avec les classes de bootstrap"
