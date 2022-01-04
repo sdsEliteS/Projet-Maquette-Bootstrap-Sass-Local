@@ -104,4 +104,4 @@ https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-av
 "Possible de faire un site responsive avec les classes de bootstrap"
 
 
-TEST
+TEST avec le lien JS Bootstrap sans le mettre en LOCAL
